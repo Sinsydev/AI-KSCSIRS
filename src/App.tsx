@@ -1,11 +1,21 @@
-// src/App.tsx
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
+import CommunityImpact from "./components/CommunityImpact";
+import LiveAlerts from "./components/LiveAlerts";
+import CommunityStats from "./components/CommunityStats";
+import CallToAction from "./components/CallToAction";
 const App = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-black-600">
-        Tailwind CSS is working! 🎉
-      </h1>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <HowItWorks />
+      <CommunityImpact />
+      <LiveAlerts />
+      <CommunityStats />
+      <CallToAction />
+    </>
   );
 };
 

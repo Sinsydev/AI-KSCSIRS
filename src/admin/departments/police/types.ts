@@ -5,4 +5,5 @@ export type Complaint = {
   message: string;
   status: "Pending" | "Resolved";
   date: string;
+  department: string;
 };

@@ -8,6 +8,7 @@ const complaints: Complaint[] = [
     message: "I can't log into my account.",
     status: "Pending",
     date: "2025-11-01",
+    department: "police", // ✅ Add this
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const complaints: Complaint[] = [
     message: "My payment didn’t go through.",
     status: "Resolved",
     date: "2025-10-28",
+    department: "police", // ✅ Add this
   },
 ];
 

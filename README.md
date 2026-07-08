@@ -12,15 +12,6 @@
 
 ---
 
-## 📸 Preview
-
-> Replace this section with screenshots or a GIF demonstrating the dashboard, reporting workflow, and mobile responsiveness.
-
-```
-Dashboard Screenshot
-Reporting Form
-Mobile View
-```
 
 ---
 

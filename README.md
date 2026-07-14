@@ -12,23 +12,12 @@
 
 ---
 
-## 📸 Preview
-
-> Replace this section with screenshots or a GIF demonstrating the dashboard, reporting workflow, and mobile responsiveness.
-
-```
-Dashboard Screenshot
-Reporting Form
-Mobile View
-```
 
 ---
 
 # 🚀 Overview
 
-The **Katsina State Security & Incident Reporting System (KSCSIRS)** is a modern web application that enables secure incident reporting, live monitoring, and real-time synchronization across connected users.
-
-Built with React, TypeScript, and Firebase, the platform streamlines security reporting workflows while improving operational visibility and response efficiency.
+Security incidents often go unreported or reach the appropriate authorities too late due to fragmented communication channels. The AI Katsina State Community Security & Incident Reporting System was designed as a modern digital platform that enables citizens to report incidents in real time while providing administrators with a centralized dashboard for monitoring, prioritizing, and responding to security events. By combining React, TypeScript, and Firebase, the platform demonstrates how modern cloud technologies can improve public safety through faster information sharing and real-time collaboration.
 
 ---
 

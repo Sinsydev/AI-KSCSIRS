@@ -103,26 +103,54 @@ The current version establishes the foundation for future AI-powered capabilitie
 
 ---
 
-# 🛠️ Tech Stack
+ ## 🛠️ Technology Stack
 
-### Frontend
+### 🎨 Frontend
 
-- React
-- TypeScript
-- Tailwind CSS
-- Context API
-- Vite
+| Technology | Purpose |
+|------------|---------|
+| **React 19** | Builds a modern, component-based user interface with reusable and maintainable components. |
+| **TypeScript** | Improves code quality through static typing, reducing runtime errors and making the application easier to maintain. |
+| **Tailwind CSS** | Provides a utility-first styling approach for building responsive and consistent user interfaces efficiently. |
+| **Vite** | Delivers an extremely fast development environment with optimized production builds. |
+| **Context API** | Manages global application state without introducing unnecessary complexity for the project's scale. |
 
-### Backend & Services
+---
 
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Realtime Database
+### ☁️ Backend & Cloud Services
 
-### Development Tools
+| Technology | Purpose |
+|------------|---------|
+| **Firebase Authentication** | Provides secure user authentication and identity management. |
+| **Cloud Firestore** | Stores structured incident data with scalable cloud-based NoSQL storage. |
+| **Firebase Realtime Database** | Synchronizes live incident updates instantly across connected users. |
+| **Firebase Hosting** *(Optional if deployed)* | Hosts the application with secure HTTPS and global content delivery. |
 
-- Git & GitHub
-- Postman
+---
+
+### ⚙️ Development Tools
+
+| Tool | Purpose |
+|------|---------|
+| **Git** | Tracks project history and supports collaborative development. |
+| **GitHub** | Hosts the source code, version control, and project documentation. |
+| **Postman** | Tests APIs and validates backend service interactions during development. |
+| **Visual Studio Code** | Primary development environment used throughout the project. |
+
+---
+
+### 🏗️ Architecture & Design
+
+The project follows modern frontend engineering principles, including:
+
+- ⚛️ Component-based architecture
+- 📂 Modular folder organization
+- 🔄 Centralized state management using Context API
+- ☁️ Cloud-native backend powered by Firebase
+- ⚡ Real-time synchronization for live incident monitoring
+- 📱 Mobile-first responsive design
+- ♻️ Reusable UI components
+- 🔒 Secure authentication and protected routes
 
 ---
 

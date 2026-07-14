@@ -124,7 +124,7 @@ The current version establishes the foundation for future AI-powered capabilitie
 | **Firebase Authentication** | Provides secure user authentication and identity management. |
 | **Cloud Firestore** | Stores structured incident data with scalable cloud-based NoSQL storage. |
 | **Firebase Realtime Database** | Synchronizes live incident updates instantly across connected users. |
-| **Firebase Hosting** *(Optional if deployed)* | Hosts the application with secure HTTPS and global content delivery. |
+ 
 
 ---
 

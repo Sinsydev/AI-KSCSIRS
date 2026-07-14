@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/aiksisir" alt=" AI-KSCSIRS Banner" width="100%"  >
+  <img src="assets/aiksisir.png" alt=" AI-KSCSIRS Banner" width="100%"  >
 </p>
  
  

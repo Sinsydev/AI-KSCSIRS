@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/aiksisir" alt=" AI-KSCSIRS Banner" width="100%"  >
+</p>
+ 
+ 
+ 
  # 🛡️ Katsina State Security & Incident Reporting System
 
 > A real-time incident reporting and monitoring platform designed to improve communication, incident tracking, and response coordination through a modern, responsive web application.

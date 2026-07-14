@@ -8,12 +8,17 @@
 
 > A real-time incident reporting and monitoring platform designed to improve communication, incident tracking, and response coordination through a modern, responsive web application.
 
-<p align="center">
+ <p align="center">
   <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white">
   <img alt="Firebase" src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black">
   <img alt="Tailwind CSS" src="https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss&logoColor=white">
   <img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white">
+  <img alt="Cloud Firestore" src="https://img.shields.io/badge/Cloud_Firestore-FFCA28?logo=firebase&logoColor=black">
+  <img alt="Realtime Database" src="https://img.shields.io/badge/Realtime_DB-FFCA28?logo=firebase&logoColor=black">
+  <img alt="Firebase Auth" src="https://img.shields.io/badge/Firebase_Auth-FFCA28?logo=firebase&logoColor=black">
+  <img alt="Responsive Design" src="https://img.shields.io/badge/Responsive-Yes-22C55E?logo=googlechrome&logoColor=white">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue">
 </p>
 
 ---

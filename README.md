@@ -46,14 +46,60 @@ Although the current version focuses on real-time reporting and monitoring, the 
 
 ---
 
-# ✨ Key Features
+ ## ✨ Key Features
 
-- 🚨 Real-time incident reporting and status updates
-- 📊 Live monitoring dashboard
-- 🔐 Secure user authentication
-- 🏷️ Incident categorization and priority management
-- 📱 Fully responsive interface
-- ⚡ Instant synchronization using Firebase Realtime Database
+### 👥 Citizen Features
+
+- 🚨 Report security incidents in real time
+- 📍 Submit detailed incident information with location context
+- 📷 Upload supporting evidence for incident reports (future enhancement)
+- 🔄 Track incident status and updates
+- 📱 Access the platform seamlessly across desktop and mobile devices
+- 🔔 Receive real-time updates through Firebase synchronization
+
+---
+
+### 🛡️ Administrator Features
+
+- 📊 Monitor incidents through a centralized dashboard
+- 🏷️ Categorize incidents by type and priority
+- 📈 View live incident activity as reports are submitted
+- 👥 Manage incident records efficiently
+- ⚡ Respond to changing situations using real-time data synchronization
+
+---
+
+### 🔐 Security Features
+
+- 🔑 Secure authentication using Firebase Authentication
+- 🛡️ Protected application routes
+- ☁️ Cloud-based data storage with Firestore
+- ⚡ Real-time synchronization using Firebase Realtime Database
+- ✅ Client-side form validation for reliable data entry
+
+---
+
+### ⚙️ Engineering Features
+
+- ⚛️ Component-based React architecture
+- 📦 Modular and scalable project structure
+- 🔄 Context API for global state management
+- 🚀 Fast development workflow powered by Vite
+- 📱 Responsive design built with Tailwind CSS
+- 🧩 Reusable UI components for maintainability
+
+---
+
+### 🤖 AI Vision
+
+The current version establishes the foundation for future AI-powered capabilities, including:
+
+- 🗣️ Voice-to-text incident reporting
+- 🤖 Automatic incident categorization
+- 🚨 Intelligent priority prediction
+- 📍 AI-assisted location suggestions
+- 📊 Predictive incident analytics
+- 🧠 Natural language processing for report analysis
 
 ---
 

@@ -154,34 +154,58 @@ The project follows modern frontend engineering principles, including:
 
 ---
 
-# 🏗️ Architecture
+ ## 🏗️ System Architecture
 
-```
-Users
-   │
-   ▼
-React + TypeScript
-   │
-Context API
-   │
-Firebase Services
- ├── Authentication
- ├── Firestore
- └── Realtime Database
+The AI Katsina State Community Security & Incident Reporting System follows a cloud-native architecture built around React and Firebase. The frontend communicates securely with Firebase services, enabling authentication, persistent cloud storage, and real-time synchronization across connected users.
+
+```text
+                    ┌────────────────────────────┐
+                    │        End Users           │
+                    │ Citizens & Administrators  │
+                    └─────────────┬──────────────┘
+                                  │
+                                  ▼
+                    ┌────────────────────────────┐
+                    │      React + TypeScript    │
+                    │      Responsive Frontend   │
+                    └─────────────┬──────────────┘
+                                  │
+                 ┌────────────────┴────────────────┐
+                 │                                 │
+                 ▼                                 ▼
+        Context API                     Firebase Authentication
+   (Global State Management)          (Secure User Login)
+                 │
+                 ▼
+        Firebase Cloud Services
+     ┌──────────────┬────────────────┐
+     │              │                │
+     ▼              ▼                ▼
+ Cloud Firestore  Realtime DB    Firebase Storage*
+ Incident Data    Live Updates   Evidence Uploads
+                                     (*Future)
 ```
 
-The application follows a modular architecture focused on scalability, maintainability, and real-time synchronization.
+> **Architecture Overview**
+
+- **Presentation Layer** – Built with React and TypeScript to deliver a responsive, component-driven user interface.
+- **State Management Layer** – Context API manages shared application state across pages and reusable components.
+- **Authentication Layer** – Firebase Authentication secures user access and protects application resources.
+- **Data Layer** – Cloud Firestore stores structured incident records while Firebase Realtime Database provides instant synchronization between connected users.
+- **Future AI Layer** – Designed to integrate AI-powered incident classification, predictive analytics, and intelligent response recommendations.
 
 ---
 
-# ⚙️ Engineering Highlights
+ ## 🏛️ Design Principles
 
-- Reusable component architecture
-- Context-based global state management
-- Real-time Firebase listeners
-- Performance-focused rendering optimization
-- Responsive UI for desktop and mobile
-- Scalable Firestore data structure
+The application was designed around several engineering principles:
+
+- **Scalability** — Modular architecture allows new features to be added with minimal code duplication.
+- **Maintainability** — Reusable React components and organized folder structures improve long-term development.
+- **Performance** — Efficient rendering strategies minimize unnecessary React re-renders.
+- **Reliability** — Firebase cloud infrastructure provides secure authentication and highly available data storage.
+- **Responsiveness** — Mobile-first design ensures usability across desktops, tablets, and smartphones.
+- **Developer Experience** — TypeScript and Vite provide fast development workflows and improved code quality.
 
 ---
 

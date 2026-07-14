@@ -209,6 +209,85 @@ The application was designed around several engineering principles:
 
 ---
 
+## 🧠 Engineering Decisions
+
+Every major technology choice in this project was made to balance development speed, maintainability, scalability, and real-time performance.
+
+### ⚛️ Why React?
+
+React was selected because of its component-based architecture, which encourages reusable UI components, simplifies state management, and makes the application easier to maintain as new features are introduced.
+
+**Benefits**
+- Reusable components
+- Predictable rendering
+- Large ecosystem
+- Excellent developer experience
+
+---
+
+### 🔷 Why TypeScript?
+
+TypeScript improves code reliability by introducing static typing, reducing runtime errors, and making large codebases easier to understand and maintain.
+
+**Benefits**
+- Type safety
+- Better IDE support
+- Easier refactoring
+- Improved maintainability
+
+---
+
+### ☁️ Why Firebase?
+
+Instead of building a traditional backend with Node.js and Express, Firebase was chosen because it provides a complete Backend-as-a-Service (BaaS) platform that accelerates development while maintaining scalability.
+
+Firebase provides:
+
+- Authentication
+- Cloud Firestore
+- Realtime Database
+- Cloud Hosting
+- Security Rules
+
+This allowed the project to focus on solving the business problem rather than maintaining backend infrastructure.
+
+---
+
+### 🔄 Why Context API?
+
+For this project's size, Context API provides efficient global state management without introducing additional complexity.
+
+Using Redux would have added unnecessary boilerplate while providing limited practical benefits for the current application requirements.
+
+---
+
+### ⚡ Why Vite?
+
+Vite significantly improves developer productivity through extremely fast hot module replacement (HMR), optimized builds, and a lightweight development environment.
+
+---
+
+### 🎨 Why Tailwind CSS?
+
+Tailwind CSS enables rapid UI development while maintaining design consistency across the application.
+
+Its utility-first approach reduces custom CSS, improves maintainability, and makes responsive layouts easier to implement.
+
+---
+
+### 🗄️ Why Firestore + Realtime Database?
+
+The application intentionally combines two Firebase database services because they solve different problems.
+
+| Service | Purpose |
+|----------|---------|
+| Cloud Firestore | Stores structured incident records, user information, and application data. |
+| Realtime Database | Synchronizes live incident updates instantly across connected users. |
+
+This hybrid approach demonstrates how different cloud services can be combined to optimize both structured data storage and real-time communication.
+
+---
+
 # 📈 Performance Optimizations
 
 - Reduced unnecessary React re-renders
